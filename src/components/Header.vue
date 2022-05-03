@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
       <div class="flex justify-between items-center border-b-2 border-gray-100 dark:border-gray-800 py-6 md:justify-start md:space-x-5">
         <div class="flex justify-start lg:flex-1">
-          <a href="https://www.iiests.ac.in/" target="_blank" rel="noreferrer" class="flex-none">
+          <a href="/" target="_blank" rel="noreferrer" class="flex-none">
             <img src="/iiest-logo.png" width="80" height="80" />
           </a>
           <router-link to="/">

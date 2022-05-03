@@ -104,6 +104,18 @@
       </div>
     </div>
   </div>
+  
+<div class="fixed bottom-0 left-0 p-4 w-full z-50">
+  <div class="max-w-screen-md ring-3 dark:ring-gray-900 ring-white text-white mx-auto flex flex-col md:flex-row space-y-4 md:space-y-0 relative justify-between items-center rounded-3xl bg-gray-800 p-4">
+    <div class="flex items-center space-x-4">
+      <div class="p-3 rounded-2xl bg-white/5 text-white">
+</div> 
+    <span> Utilizamos <b>cookies</b> para mejorar la experiencia enel sitio web.
+      <a href="#" class="order-last sm:order-none w-full sm:w-auto inline-block bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 focus-visible:ring ring-indigo-300 text-white text-xs md:text-sm font-semibold text-center whitespace-nowrap rounded-lg outline-none transition duration-100 px-4 py-2">Learn more</a>
+     </span>
+     </div>
+ </div>
+ </div>
 </template>
 
 <script setup lang="ts">
