@@ -60,6 +60,9 @@
           <router-link to="/alumni" class="p-1 text-base font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100">
             Alumni
           </router-link>
+          <router-link to="/contact" class="p-1 text-base font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100">
+            Contacts
+          </router-link>
         </PopoverGroup>
         <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
           <button class="icon-btn mx-2 flex-none !outline-none" :title="'Toggle Theme'" @click="toggleDark">
