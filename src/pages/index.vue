@@ -12,7 +12,7 @@
        <div class="xl:w-5/12 flex flex-col justify-center sm:text-center lg:text-left lg:py-12">
         <p class="text-indigo-500 md:text-lg xl:text-xl font-semibold mb-4 md:mb-6">Very proud to introduce</p>
 
-        <h1 class="text-black-800 text-4xl sm:text-5xl md:text-6xl font-bold mb-8 md:mb-12"> way to build the web</h1>
+        <h1 class="text-black-800 text-4xl sm:text-5xl md:text-6xl font-bold mb-8 md:mb-12"> THis the lets way to build the web</h1>
 
         <div class="flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-2.5">
           <a href="#" class="inline-block bg-indigo-500 hover:bg-indigo-600 active:bg-indigo-700 focus-visible:ring ring-indigo-300 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">Start now</a>
