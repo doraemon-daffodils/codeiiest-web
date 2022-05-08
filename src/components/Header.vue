@@ -1,12 +1,12 @@
 <template>
-  <Popover open="true" class="relative bg-white dark:bg-dark-900 mb-10 z-50">
+  <Popover open="true" class="relative bg-white-900 dark:bg-dark-900 mb-10 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
       <div class="flex justify-between items-center border-b-2 border-gray-100 dark:border-gray-800 py-6 md:justify-start md:space-x-5">
         <div class="flex justify-start lg:flex-1">
-          <a href="/" target="_blank" rel="noreferrer" class="flex-none">
+          <!-- <a href="/" target="_blank" rel="noreferrer" class="flex-none">
             <img src="/iiest-logo.png" width="80" height="80" />
-          </a>
-          <router-link to="/">
+          </a> -->
+          <router-link to="/home">
             <span class="sr-only">CodeIIEST</span>
             <BrandDark v-if="isDark" width="80" height="80" />
             <Brand v-else width="80" height="80" />
@@ -21,7 +21,7 @@
         <PopoverGroup as="nav" class="hidden md:flex space-x-5">
           <Popover v-slot="{ open }" class="relative">
             <PopoverButton :class="[open ? 'text-gray-900 dark:text-gray-400' : 'text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100', 'p-1 group bg-white dark:bg-dark-900 rounded-md inline-flex items-center text-base font-medium focus:outline-none focus:ring-2 focus:ring-red-500']">
-              <span>Chapters</span>
+              <span>Business Insights</span>
               <carbon-chevron-down :class="[open ? 'text-gray-600 dark:text-gray-400' : 'text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100', 'ml-2 h-5 w-5 group-hover:text-gray-500 dark:group-hover:text-gray-100']" aria-hidden="true" />
             </PopoverButton>
 
@@ -112,23 +112,11 @@
           </div>
           <div class="py-6 px-5 space-y-6">
             <div class="grid grid-cols-3 gap-y-4 gap-x-8">
-              <PopoverButton>
-                <router-link to="/events" class="text-base font-medium text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-100">
-                  Events
-                </router-link>
-              </PopoverButton>
+              
 
-              <PopoverButton>
-                <router-link to="/team" class="text-base font-medium text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-100">
-                  Team
-                </router-link>
-              </PopoverButton>
+              
 
-              <PopoverButton>
-                <router-link to="/alumni" class="text-base font-medium text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-100">
-                  Alumni
-                </router-link>
-              </PopoverButton>
+              
             </div>
             <div>
               <PopoverButton class="icon-btn mx-2 flex-none !outline-none" title="Toggle Theme" aria-label="Dark Theme Switcher" @click="toggleDark">
@@ -141,6 +129,13 @@
       </PopoverPanel>
     </transition>
   </Popover>
+
+
+
+
+
+
+
 </template>
 
 <script lang="ts">

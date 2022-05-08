@@ -1,5 +1,5 @@
 {
-  "name": "codeiiest",
+  "name": "Capstone Legal",
   "private": true,
   "version": "1.0",
   "scripts": {
@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.6.6",
+    "@heroicons/vue": "^1.0.6",
     "@iconify/json": "^1.1.359",
     "@types/nprogress": "^0.2.0",
     "@typescript-eslint/eslint-plugin": "^4.28.0",

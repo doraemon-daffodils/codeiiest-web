@@ -31,7 +31,7 @@
       <div class="mt-10">
         <div
           class="
-          text-xl
+          text-l
           flex
           justify-center
           gap-x-3

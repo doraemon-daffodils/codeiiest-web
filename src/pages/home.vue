@@ -158,17 +158,7 @@
     </div>
   </div>
   
-<div class="fixed bottom-0 ">
-  <div class=" dark:ring-gray-900 ring-white text-black mx-auto flex flex-col md:flex-row space-y-4 md:space-y-0 relative justify-between items-center rounded-3xl bg-white p-4">
-    <div class="flex items-center bg-gray-100 space-x-4">
-      <div class="p-3 rounded-2xl bg-white/5 text-white">
-</div> 
-    <span> As per Bar Council of India rules, we are not permitted to solicit work and advertise. By accessing this website, the user acknowledges that website is being accessed for the sole purpose of getting information about the practice areas of Capstone Legal and there has been no advertisement or solicitation of work.
-      <a href="/home" class="order-last  sm:order-none w-full sm:w-auto inline-block bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 focus-visible:ring ring-indigo-300 text-white text-xs md:text-sm font-semibold text-center whitespace-nowrap rounded-lg outline-none transition duration-100 px-4 py-2">Okay, I understand</a>
-     </span>
-     </div>
- </div>
- </div>
+
 </template>
 
 <script setup lang="ts">
